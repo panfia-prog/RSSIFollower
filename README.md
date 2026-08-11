@@ -41,7 +41,7 @@ Setting up the desktop software components:
 4. Double-check if the IP address displayed in the Serial Monitor of the Arduino IDE is the same as the one in MATLAB. If not, change it to match.
 5. Disconnect from your current Wifi network and connect to the network named 'ESP32-Access-Point' with the password '123456789' *This is the default and can be altered in the program
 
-# Actual application
+# Running the main MATLAB application
 Running the MATLAB program:
 1. Click the 'Run' icon
 2. Once the program is done, Signal Analyzer should open with the graphs and the Command Window should display the direction it chose
