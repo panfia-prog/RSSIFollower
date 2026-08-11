@@ -1,3 +1,4 @@
+# Needed hardware and software
 Hardware Needed (Those in parenthesis are what was used in testing):
 - ESP32 (ESP-WROOM-32)
 - Servo (SG90 Micro servo)
@@ -14,6 +15,7 @@ Software Needed (Where the software should be installed):
 - MATLAB Application (Desktop) *Cannot run on MATLAB online
 - nRF Connect (Android Mobile Phone) *Does not work with Apple devices as they do not let you set a custom UUID
 
+# Setup
 Setting up the nRF Connect Application:
 1. Go to any browser and search 'UUID Generator'
 2. Generate and copy the UUID 
@@ -39,6 +41,7 @@ Setting up the desktop software components:
 4. Double-check if the IP address displayed in the Serial Monitor of the Arduino IDE is the same as the one in MATLAB. If not, change it to match.
 5. Disconnect from your current Wifi network and connect to the network named 'ESP32-Access-Point' with the password '123456789' *This is the default and can be altered in the program
 
+# Actual application
 Running the MATLAB program:
 1. Click the 'Run' icon
 2. Once the program is done, Signal Analyzer should open with the graphs and the Command Window should display the direction it chose
