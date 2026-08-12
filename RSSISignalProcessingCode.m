@@ -104,3 +104,5 @@ switch minI
     otherwise
         disp('Undecided. Moving FORWARD by default...');
 end
+
+clear t;
